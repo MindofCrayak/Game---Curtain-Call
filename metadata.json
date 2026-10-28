@@ -1,0 +1,6 @@
+{
+  "name": "Curtain Call: Community Theater Tycoon",
+  "description": "A community theater management simulation featuring script licensing, auditions, spatial stagecraft, Tech Week flub clearing, critic reviews, and seasonal box office economics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

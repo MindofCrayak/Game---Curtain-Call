@@ -1,0 +1,104 @@
+{
+  "title": "Curtain Call",
+  "hook": "Scrappy troupe stages box-office hits",
+  "game_overview": "Curtain Call is an isometric 16-bit community theater management sim inspired by classic studio tycoons. Manage staff, audition volunteers, build sets, squash flubs in Tech Week, and run shows.",
+  "artstyle": "isometric-sim",
+  "genre": "casual3d",
+  "winning_condition": "Accumulate prestige, induct shows into the 32+ Repertoire Hall of Fame, and build a thriving profitable theater company.",
+  "losing_condition": "Treasury bankruptcy when operating overhead exceeds box office revenue and grants.",
+  "player_mode": "single_player",
+  "supported_orientations": [
+    "landscape"
+  ],
+  "input_methods": [
+    "mouse",
+    "touch",
+    "keyboard"
+  ],
+  "score_options": {
+    "score_type": "points",
+    "score_order": "higher_is_better"
+  },
+  "low_end_device_support": false,
+  "mobile_playable": true,
+  "language": [
+    "en"
+  ],
+  "content_descriptors": [],
+  "controls": [
+    {
+      "input": "Click/Touch",
+      "action": "Select menus, assign staff & cast, build seats, squash flubs during Tech Week"
+    },
+    {
+      "input": "Q/E",
+      "action": "Rotate isometric camera"
+    },
+    {
+      "input": "W/A/S/D",
+      "action": "Pan camera across backstage, stage, and auditorium"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Design Pillars",
+      "content": "1. Cozy Community Stewardship: Celebrate the quirks and warmth of grassroots amateur theater over corporate scale. 2. Tactile 3D Playhouse Management: Watch 3D low-poly actors rehearse on stage, carpenters build wooden flats in the scene shop, and audiences fill the auditorium. 3. Emergent Parody Drama: Combine witty parody scripts, local actor scheduling conflicts, leaky roof disasters, and critical Town Gazette reviews for high replayability.",
+      "summary": "Core philosophy emphasizing cozy community charm, tactical depth, and tactile theater craft."
+    },
+    {
+      "title": "Core Loop",
+      "content": "Phase 1: Annual Grant & Board Meeting sets budget targets. Phase 2: Season Planning slots 4 productions across Spring, Summer, Fall, and Winter matching town demand. Phase 3: Show Production Cycle (Auditions -> Rehearsals & Polish Sliders -> Workshop Fabrication -> Opening Night Box Office -> Gazette Reviews). Phase 4: Off-Season rentals, summer youth drama camps, and facility lot expansions (Tier 1 Church Basement to Tier 5 Cultural Anchor Complex).",
+      "summary": "Annual 4-show season planning, production cycles, show runs, gazette reviews, and lot expansion."
+    },
+    {
+      "title": "Core Mechanics",
+      "content": "1. Script & Genre Parody Library: Produce iconic spoofs like 'The Tragedy of Macbread', 'Dogs', 'Death of a Door-to-Door', and 'Rent? No, Lease'. 2. Slider-Based Production Polish: Balance Table Read, Tech Polish, Set Craft, and Costume Flair against rehearsal weeks. 3. Local Talent Dynamics: Manage amateur actor availability (dentists, teachers, local divas) and morale. 4. 3D Playhouse Lot Construction: Build scene workshops, dressing rooms, lighting booths, concession stands, and secondary black box stages.",
+      "summary": "Auditions, resource sliders, script parodies, board demands, and 3D lot upgrades."
+    },
+    {
+      "title": "3D Camera & Movement Alignment",
+      "content": "3D Coordinate System: Three.js right-handed coordinate space (+Y is Up, +X is Right, -Z is Forward). Camera Perspective: Elevated isometric orthographic-style perspective camera focused on the theater lot diorama. Smooth orbital rotation around the central stage anchor with keyboard (Q/E) and touch swipe controls. Asset Orientation: All theater rooms, proscenium stages, audience rows, and backstage workshops face forward along -Z for seamless visibility and clean cutaway diorama rendering.",
+      "summary": "Isometric diorama 3D camera with orbital rotation, panning, and stage zoom."
+    },
+    {
+      "title": "3D Scene & Environment Structure",
+      "content": "3D Scene Separation: Stylized low-poly theatrical diorama with cutaway dollhouse architecture. Cozy ambient illumination with warm tungsten spotlights, proscenium footlights, and exterior seasonal lighting (Spring blossom, Summer sunshine, Autumn leaves, Winter snow). Hazard & Status Affordance: Leaking roof tiles and broken spotlights pulse with warning amber icons and water drip particles. Interactive UI overlay rendered with clean Tailwind glassmorphism safe zones.",
+      "summary": "Warm theater interior and diorama lot with cozy golden stage lighting and dynamic time-of-day."
+    },
+    {
+      "title": "Characters & Enemies",
+      "content": "1. Local Actors: Dr. Evans (singing dentist), Martha (grand dame soprano), Leo (passionate barista baritone), and Chloe (eager high school tech prodigy). 2. Board Members: The Traditionalist, The Commercialist, The Avant-Garde Patron, and The Fiscal Hawk. 3. The Critic: Arthur Pendelton from The Oakwood Gazette who publishes satirical opening night reviews.",
+      "summary": "Quirky local cast members, demanding theater board members, and ruthless newspaper critics."
+    },
+    {
+      "title": "Fairness Tools",
+      "content": "1. Gazette Town Rumors: Subtle editorial hints about upcoming community demand (e.g. 'Seniors craving classic drama'). 2. Expected Review Meter: Visual gauge previewing expected show quality based on rehearsal polish and casting chemistry. 3. Emergency Understudy Call: Pay an extra stipend to swap in an understudy if a lead actor has a schedule conflict.",
+      "summary": "Pre-season audience demand hints, rehearsal quality preview meters, and understudy safety nets."
+    },
+    {
+      "title": "Juice & Game Feel",
+      "content": "1. Anticipation Juice: Red stage curtains twitch and rise as the overture plays on Opening Night. 2. State Change Juice: Upgraded rooms pop with gold dust particles, freshly painted props gleam, and seasonal weather transforms the lot. 3. Impact Juice: Standing ovations trigger cascade confetti, ticket cash registers chime, and 5-star Gazette reviews splash with golden laurels.",
+      "summary": "Theatrical spotlight sweeps, curtain drops, audience applause particles, and tactile clicking."
+    },
+    {
+      "title": "Social Mechanics & Audience",
+      "content": "Single-player cozy tycoon simulation. Integrated with the global leaderboard to track Lifetime Theater Prestige, Total Box Office Gross, and Golden Gazette Review Awards.",
+      "summary": "High score season leaderboards and theater prestige rating."
+    },
+    {
+      "title": "Accessibility",
+      "content": "1. Adjustable Game Speed (1x, 2x, Pause). 2. High-contrast typography with clear icon badges. 3. Colorblind-friendly UI indicators for actor moods, budget states, and production quality.",
+      "summary": "Adjustable simulation speed, high-contrast text mode, and full touch/mouse parity."
+    },
+    {
+      "title": "Structural Integrity",
+      "content": "State Flow: Main Menu -> Season Planning -> Production Rehearsal View -> Opening Night Live Stage View -> Gazette Review Screen -> Off-Season Lot Expansion -> Next Year Grant Meeting. Seamless restart and automatic progress saving.",
+      "summary": "State machine managing season cycles, lot upgrades, show nights, and persistent saves."
+    },
+    {
+      "title": "Virtual Touch Controls Implementation",
+      "content": "Render on-screen virtual camera control buttons (Orbit Left/Right, Zoom +/-) and large responsive management action cards on mobile devices. Ensure touch-none and pointer-events-auto properties so touch interaction is seamless without interfering with the 3D diorama canvas.",
+      "summary": "Dedicated responsive touch interface for mobile devices."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "summary": "Updated implementation plan incorporating a 'Skip Tutorial' (Freeform Architect Mode) checkbox directly on the Chairman Onboarding screen. When checked, the 10-phase sequential tutorial FSM is bypassed, the $5,000 municipal grant is instantly credited, and all building tools (Stages, Wings, Rooms, Doors, Seating, Amenities) are unlocked immediately for unrestricted sandbox construction. The Civic Inspector audit button remains accessible at any time to validate the venue before launching Season 1.",
+  "updatedAt": "2026-10-15T19:05:20.250982895Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

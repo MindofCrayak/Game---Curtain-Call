@@ -1,0 +1,76 @@
+{
+  "schema": [
+    {
+      "name": "initialFunds",
+      "type": "number",
+      "label": "Starting Funds ($)",
+      "default": 4500,
+      "min": 1000,
+      "max": 20000,
+      "step": 500
+    },
+    {
+      "name": "initialPrestige",
+      "type": "number",
+      "label": "Starting Prestige",
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "name": "ticketPriceDefault",
+      "type": "number",
+      "label": "Base Ticket Price ($)",
+      "default": 22,
+      "min": 10,
+      "max": 60,
+      "step": 2
+    },
+    {
+      "name": "rehearsalSpeed",
+      "type": "number",
+      "label": "Rehearsal Speed",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 3.0,
+      "step": 0.25
+    },
+    {
+      "name": "ambientIntensity",
+      "type": "number",
+      "label": "Ambient Intensity",
+      "default": 1.8,
+      "min": 0.5,
+      "max": 5.0,
+      "step": 0.1
+    },
+    {
+      "name": "sunIntensity",
+      "type": "number",
+      "label": "Sun Intensity",
+      "default": 3.5,
+      "min": 1.0,
+      "max": 10.0,
+      "step": 0.1
+    },
+    {
+      "name": "fov",
+      "type": "number",
+      "label": "Field of View",
+      "default": 50,
+      "min": 30,
+      "max": 90,
+      "step": 5
+    }
+  ],
+  "values": {
+    "initialFunds": 4500,
+    "initialPrestige": 20,
+    "ticketPriceDefault": 22,
+    "rehearsalSpeed": 1.0,
+    "ambientIntensity": 1.8,
+    "sunIntensity": 3.5,
+    "fov": 50
+  }
+}
